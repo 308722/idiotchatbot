@@ -31,7 +31,23 @@
             <artifactId>JDA</artifactId>
             <version>5.0.0-beta.9</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.discord4j</groupId>-->
+<!--            <artifactId>discord4j-core</artifactId>-->
+<!--            <version>VERSION</version>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>net.dv8tion</groupId>
+            <artifactId>JDA</artifactId>
+            <version>1.2.2_139</version>
+        </dependency>
+
     </dependencies>
+
+
+
+
+
 
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
