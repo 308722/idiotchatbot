@@ -19,7 +19,7 @@ public class App extends ListenerAdapter {
     private Object GuildMessageReceivedEvent;
 
     public static void main(String[] args) {
-        JDA jda = JDABuilder.createDefault("MTEwNTA5NTA0MTQ3MjUyODQxNA.Gm9amP.3OCifCY2rb4A5mwAorEkv_XAl0-MPbwYBLx_eQ")
+        JDA jda = JDABuilder.createDefault("")
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .build();
         jda.getPresence().setActivity(Activity.playing("이세계 아이돌 시청"));
